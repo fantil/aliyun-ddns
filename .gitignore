@@ -1,0 +1,9 @@
+*.class
+*.project
+*.classpath
+*.iml
+.flattened-pom.xml
+
+.idea/
+.vscode/
+**/target
