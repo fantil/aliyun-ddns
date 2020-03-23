@@ -2,7 +2,9 @@
 可用于动态更新域名解析地址
 
 ### 用法
-java -jar aliyun-ddns.jar -DaccessKeyId=xxx -Dsecret=xxx -Ddomain=xxx
+注意: 参数在-jar前面, 否则会提示找不到参数。
+jdk版本: 1.8
+java -DaccessKeyId=xxx -Dsecret=xxx -Ddomain=xxx -jar aliyun-ddns.jar 
 
 ### 参数
 #### 1、必填参数
