@@ -2,9 +2,10 @@
 可用于动态更新域名解析地址
 
 ### 用法
-注意: 参数在-jar前面, 否则会提示找不到参数。
-jdk版本: 1.8
-java -DaccessKeyId=xxx -Dsecret=xxx -Ddomain=xxx -jar aliyun-ddns.jar 
+注意: 
+- 参数在-jar前面, 否则会提示找不到参数。
+- jdk版本: 1.8
+- java -DaccessKeyId=xxx -Dsecret=xxx -Ddomain=xxx -jar aliyun-ddns.jar 
 
 ### 参数
 #### 1、必填参数
@@ -14,4 +15,4 @@ java -DaccessKeyId=xxx -Dsecret=xxx -Ddomain=xxx -jar aliyun-ddns.jar
 
 #### 2、可选参数
 ##### 1、regionId 地区信息, 默认: cn-hangzhou, 理论上域名解析不需要这个参数。
-##### 2、getIPUrl 用于获取本机公网ip的url, 默认: http://ifconfig.me, user-agent: curl/7.65.3 提供的url需要能通过curl直接获取ip
+##### 2、getIPUrl 用于获取本机公网ip的url, 默认: http://whatismyip.akamai.com, user-agent: curl/7.65.3 提供的url需要能通过curl直接获取ip, 如: http://ifconfig.me
