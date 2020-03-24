@@ -24,7 +24,7 @@ import org.slf4j.LoggerFactory;
 public class AliyunDDNS {
     private static final Logger LOGGER = LoggerFactory.getLogger(AliyunDDNS.class);
 
-    private static final String DEFAULT_GET_IP_URL = "http://ifconfig.me";
+    private static final String DEFAULT_GET_IP_URL = "http://whatismyip.akamai.com";
 
     private static IAcsClient client;
 
